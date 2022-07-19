@@ -1,7 +1,7 @@
 <template>
   <div class="project">
     <aside>
-      <h3>You can deploy...</h3>
+      <h3>You can deplo22y...</h3>
       <ul>
         <li v-for="project in projects" v-bind:key="project.id">
           <a v-bind:href="`/project/${project.slug}`">{{ project.name }}</a>
