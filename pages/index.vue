@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>修改标题_202207191614</h1>
+    <h1>app</h1>
     <div class="card-grid">
       <SmallCard
         v-bind:key="project.id"
@@ -28,8 +28,8 @@ export default {
   components: {
     Logo,
     ReactIcon,
-    SmallCard
-  }
+    SmallCard,
+  },
 };
 </script>
 
